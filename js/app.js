@@ -1,7 +1,7 @@
 'use strict'; // use strict mode to prevent doing mistakes 
 
 var correctAnswers =0;
-if (confirm('Have you Ever Meet Me?(yes or no)')) {
+if (prompt('Have you Ever Meet Me?(yes or no)')) {
    
    
  //console.log('Great');
@@ -17,7 +17,7 @@ correctAnswers +=1;
 
 
 
-  if (confirm('Do you know where im From ?(yes or no)')) {
+  if (prompt('Do you know where im From ?(yes or no)')) {
    
    
     //console.log('Great');
@@ -30,7 +30,7 @@ correctAnswers +=1;
      }
 
 
-     if (confirm('Do you know whats my major is ?(yes or no)')) {
+     if (prompt('Do you know whats my major is ?(yes or no)')) {
    
    
         //console.log('Great');
@@ -44,7 +44,7 @@ correctAnswers +=1;
 
 
 
-         if (confirm('Do you know How Old am i  ?(yes or no)')) {
+         if (prompt('Do you know How Old am i  ?(yes or no)')) {
    
    
             //console.log('Great');
@@ -94,10 +94,9 @@ var myhair  = parseInt( prompt('how much years of experince i have ?') );
   }
 
 
-  /*
-  
-  */
 
+
+  
   var listOfAnswers = [44,22,33,11,55,66];
 loop1:
   for(var i=0; i<6; i++){
