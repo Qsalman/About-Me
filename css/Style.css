@@ -143,6 +143,7 @@ header li {
 footer {
     text-align: center;
     padding: 50px;
+    background-color: black;
 }
 
 #hero h1 {
@@ -183,3 +184,22 @@ header a {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/field.jpg');
 }
 
+a:hover{
+color: yellow;
+
+}
+a:link {
+    color: #FF0000;
+  }
+  
+  p {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+
+  ul,li {
+    font-size: 40px;
+  }
+  
